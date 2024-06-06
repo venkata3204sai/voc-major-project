@@ -1,0 +1,122 @@
+:root{
+    --gradient: radial-gradient(130% 120% at 50% -20%, pink 0%, blue 50%, black 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: var(--gradient);
+    background-attachment:fixed;
+    height: 100vh;
+}
+
+.header-banner{
+    max-width: 700px;
+    margin: 30px auto;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.title h1{
+    color: white;
+    font-size: 2.2rem;
+    cursor: default;
+}
+
+.add-todo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.input-group{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+input{
+    background: white;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 150px;
+}
+
+input:focus{
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5);
+}
+
+.btn, .delete-btn{
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 700;
+    border: 2px solid white;
+    background: none;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 5ms ease-in-out, opacity 5ms ease-in-out;
+}
+
+.btn:hover, .delete-btn:hover{
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.5);
+}
+
+.btn:active, .delete-btn:active{
+    transform: scale(0.9);
+    opacity: 0.8;
+}
+
+#todo-list{
+    border: 3px solid white;
+    max-width: 700px;
+    min-height: 100px;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.list-container{
+    border: 2px solid white;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task-info{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.delete-btn{
+    margin-left: 2rem;
+}
