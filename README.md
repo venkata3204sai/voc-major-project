@@ -8,7 +8,11 @@
   <img src="https://img.shields.io/badge/Storage-localStorage-lightgrey.svg" alt="localStorage">
   <img src="https://img.shields.io/github/last-commit/venkata3204sai/voc-major-project" alt="Last Commit">
   <img src="https://img.shields.io/github/repo-size/venkata3204sai/voc-major-project" alt="Repo Size">
+  <img src="https://img.shields.io/badge/Internship-Vault%20of%20Codes-blueviolet" alt="Vault of Codes Internship">
 </p>
+
+**This project was developed as part of my Frontend Web Development Internship at Vault of Codes.**  
+**Live Demo:** https://venkata3204sai.github.io/voc-major-project/
 
 A minimal, responsive To-Do web application built with plain HTML, CSS and JavaScript.  
 Tasks are stored in the browser using `localStorage`, so they persist between visits. The UI supports adding tasks with due date & time, listing tasks and deleting tasks.
@@ -56,3 +60,11 @@ voc-major-project/
 
 ## Preview
 <img width="1891" height="980" alt="{C982EB6F-BCFC-4846-A858-7C0C4217D94A}" src="https://github.com/user-attachments/assets/5142f711-c113-47ae-a4a2-43eeba0e15db" />
+
+## Internship Acknowledgement
+
+This project was created as an official task for my **Frontend Web Development Internship at Vault of Codes**.  
+The goal of the internship was to build real-world, responsive web interfaces using HTML, CSS, and JavaScript while strengthening UI/UX design fundamentals.
+
+You can view the live hosted version here:  
+**GitHub Pages:** https://venkata3204sai.github.io/voc-major-project/
